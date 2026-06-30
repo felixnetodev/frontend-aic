@@ -6,12 +6,46 @@
     <title>Tags Principais</title>
   </head>
   <body>
-    <header><!--escopo do header--></header>
-
-    <nav>escopo do nav</nav>
+    <header id="topo"><!--escopo do header--></header>
+    <!--Menu com lista não ordenada-->
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Mais vendidos</a>
+        </li>
+        <li>
+          <a href="#">Eletrônicos</a>
+          <ul>
+            <li><a href="#"></a>Smartphone</li>
+            <li><a href="#"></a>Tablets</li>
+            <li><a href="#"></a>Webcams</li>
+            <li><a href="#"></a>Impressoras</li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Roupas</a>
+          <ul>
+            <li><a href="#"></a>Smartphone</li>
+            <li><a href="#"></a>Masculinas</li>
+            <li><a href="#"></a>Femininas</li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Acessórios</a>
+          <ul>
+            <li><a href="#"></a>Bolsas</li>
+            <li><a href="#"></a>Relógios</li>
+            <li><a href="#"></a>Cintos</li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Ideias para presentes</a>
+        </li>
+      </ul>
+    </nav>
 
     <main>
-      <!--headings-->>
+      <!--headings-->
       <article>
         <h1>Título 01</h1>
         <h2>Título 02</h2>
@@ -30,8 +64,94 @@
           <li>Quarto</li>
           <li>Quinto</li>
         </ol>
+
+        <ul>
+          <li>Arroz</li>
+          <ul>
+            <li>Arroz Arbóreo</li>
+            <li>Arroz Cateto</li>
+            <li>Arroz Negro</li>
+            <li>Arroz PArbolizado</li>
+            <li>Arroz Integral</li>
+          </ul>
+          <li>Feijão</li>
+          <li>Macarrão</li>
+          <li>Farinha</li>
+          <li>Açucar</li>
+        </ul>
       </article>
 
+      <!--Imagens-->
+      <article>
+        <img
+          src="/assets/imagens/fquarto.jpg"
+          alt="Imagem do quarto"
+          title="Imagem do quarto"
+        />
+      </article>
+
+      <!--Vídeos-->
+      <article>
+        <video controls width="560">
+          <source src="/assets/video/code rain.mp4" />
+        </video>
+      </article>
+
+      <!--Vídeos do Youtube-->
+      <article>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/EpN8hOM3xTU?si=09aqI50TsgAezJxR"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </article>
+
+      <!--Links-->
+      <article>
+        <a href="0_intro.html">Link Relativo</a> <br />
+        <!--Relativo porque depende de uma vinculaçao entre o caminho onde está o arquivo de origem e onde vai estar o arquivo de
+        destino-->
+        <a href="https://penseavanti.com.br/" target="_blank">Link Absoluto</a>
+        <br />
+        <!--Absoluto por que esta vinculado à um link externo, não depende de onde o documento está não de pende da
+         posição onde o arquivo está-->
+
+        <a href="#topo">Link Âncora</a><br />
+        <!--trabalhar com âncora. Quando vemos"#" chamamos de link cego, não vai para lugar nenhum-->
+
+        <a href="mailto:felixneto.dev@gmail.com">Link com e-mail</a>
+      </article>
+
+      <!--Paragráfo-->
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+          voluptatum magnam voluptates pariatur, quidem nisi quod. <br />
+          Perferendis minus atque temporibus hic dignissimos reiciendis eaque ex
+          totam aperiam. Nulla, repellat nisi.
+        </p>
+        <p>
+          <a href="#">Lorem ipsum dolor sit amet consectetur</a> adipisicing
+          elit. Optio corrupti, amet illum quo nobis atque repellat laborum
+          soluta porro magnam nam ea quaerat commodi dicta, placeat expedita
+          voluptas maxime qui?
+        </p>
+      </article>
+
+      <!--vídeo-->
       <article></article>
     </main>
 
